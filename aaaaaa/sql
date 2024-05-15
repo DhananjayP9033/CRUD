@@ -1,12 +1,6 @@
-truncate table Employee;
-
-
-
-create table Employee(id int, name varchar(50), email varchar(50),moNumber varchar(20));
+drop table Employee;
 
 select * from Employee;
-
-drop table Employee;
 
 create table Employee 
 (id int GENERATED ALWAYS AS IDENTITY(Start with 100, Increment by 1), 
